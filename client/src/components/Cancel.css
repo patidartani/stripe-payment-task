@@ -1,0 +1,48 @@
+/* Cancel Page Styles */
+
+.cancel-page {
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px 1px #001a285c;
+    text-align: center;
+  }
+  
+  .cancel-page h3 {
+    font-size: 1.6vmax;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #003f80;
+    letter-spacing: 0.4px;
+  }
+
+  .cancel-page p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .cancel-page .dashboard-link {
+    display: inline-block;
+    background-color: #003f80;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-page .dashboard-link:hover {
+    background-color: #003161;
+  }
+  
+  @media (max-width: 768px) {
+    .cancel-page {
+      width: 90%;
+    }
+  }
+
+  
