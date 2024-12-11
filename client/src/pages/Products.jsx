@@ -14,7 +14,6 @@ const Products = () => {
         const res = await axios.get('https://fakestoreapi.com/products');
         setProducts(res.data);
         // console.log(res.data)
-        
       } catch (err) {
         console.error(err);
         toast.error('Failed to fetch products.');
